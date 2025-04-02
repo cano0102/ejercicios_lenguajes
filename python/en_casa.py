@@ -374,8 +374,3 @@ while True:
         break
     else:
         print("opcion no valida")
-
-
-
-
-
