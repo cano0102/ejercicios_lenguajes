@@ -1,6 +1,5 @@
 # ejercicio1
 
-
 # def calculadora(num_uno, num_dos):
 
 #  operador = int(input("elige una ona opcion: 1 para salir,1 sumar , 2 restar , 3 multiplicar ,4 dividir "))
@@ -64,7 +63,7 @@
 #     print("suma de converciones es", suma_de_canversiones)
 
 #     opcion = input("elige una opcion de a para seguir c para cerrar")
-     
+    
 #     if opcion == "a":
 #         continue
 #     elif opcion =="c":
