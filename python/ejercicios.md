@@ -1,386 +1,268 @@
 Ejercicios con Listas
+
 Ejercicio 1: Gestión de Libros en una Biblioteca
 
 Escenario: Una biblioteca necesita administrar su colección de libros.
+
 Objetivo: Crear un sistema para agregar, prestar y mostrar libros disponibles.
+
 Requisitos:
 
-    Agregar nuevos libros (título, autor, ISBN)
+Agregar nuevos libros (título, autor, ISBN)
 
-    Prestar libros (marcar como no disponible)
+Prestar libros (marcar como no disponible)
 
-    Mostrar libros disponibles
+Mostrar libros disponibles
 
-    Buscar libros por autor o título
-    Restricciones:
+Buscar libros por autor o título
 
-    No permitir libros con el mismo ISBN
+Restricciones:
 
-    Máximo 3 préstamos por usuario
+No permitir libros con el mismo ISBN
 
-    Validar que el ISBN tenga 13 dígitos
+Máximo 3 préstamos por usuario
+
+Validar que el ISBN tenga 13 dígitos
 
 Ejercicio 2: Control de Asistencia a Eventos
 
 Escenario: Organización de un evento con lista de invitados.
+
 Objetivo: Registrar asistencia y gestionar invitados.
+
 Requisitos:
 
-    Registrar nuevos invitados (nombre, documento, empresa)
+Registrar nuevos invitados (nombre, documento, empresa)
 
-    Marcar asistencia al evento
+Marcar asistencia al evento
 
-    Generar lista de asistentes
+Generar lista de asistentes
 
-    Buscar invitado por documento
-    Restricciones:
+Buscar invitado por documento
 
-    Máximo 100 invitados
+Restricciones:
 
-    No permitir documentos duplicados
+Máximo 100 invitados
 
-    Validar formato de documento (8-10 dígitos)
+No permitir documentos duplicados
+
+Validar formato de documento (8-10 dígitos)
 
 Ejercicios con Tuplas
+
 Ejercicio 3: Sistema de Puntuación de Videojuegos
 
 Escenario: Plataforma que registra puntuaciones de jugadores.
+
 Objetivo: Almacenar y mostrar rankings de juegos.
+
 Requisitos:
 
-    Registrar nueva puntuación (jugador, juego, puntos, fecha)
+Registrar nueva puntuación (jugador, juego, puntos, fecha)
 
-    Mostrar top 5 puntuaciones por juego
+Mostrar top 5 puntuaciones por juego
 
-    Calcular promedio de puntos por juego
-    Restricciones:
+Calcular promedio de puntos por juego
 
-    Puntuaciones deben ser entre 0 y 1000
+Restricciones:
 
-    Fecha en formato YYYY-MM-DD
+Puntuaciones deben ser entre 0 y 1000
 
-    No permitir modificar puntuaciones registradas
+Fecha en formato YYYY-MM-DD
+
+No permitir modificar puntuaciones registradas
 
 Ejercicio 4: Horario de Clases Universitarias
 
 Escenario: Sistema para consultar horarios de materias.
+
 Objetivo: Permitir a estudiantes verificar horarios.
+
 Requisitos:
 
-    Almacenar horarios (materia, profesor, días, hora)
+Almacenar horarios (materia, profesor, días, hora)
 
-    Consultar materias por día
+Consultar materias por día
 
-    Buscar materias por profesor
-    Restricciones:
+Buscar materias por profesor
 
-    Días válidos: Lunes a Viernes
+Restricciones:
 
-    Horas en formato 24h (8:00 - 20:00)
+Días válidos: Lunes a Viernes
 
-    No permitir solapamiento de horarios
+Horas en formato 24h (8:00 - 20:00)
+
+No permitir solapamiento de horarios
 
 Ejercicios con Diccionarios
+
 Ejercicio 5: Sistema de Gestión de Proyectos
 
 Escenario: Equipo que necesita organizar proyectos y tareas.
+
 Objetivo: Administrar proyectos, asignar tareas y miembros.
+
 Requisitos:
 
-    Crear proyectos (nombre, fecha inicio, fecha fin)
+Crear proyectos (nombre, fecha inicio, fecha fin)
 
-    Asignar miembros a proyectos
+Asignar miembros a proyectos
 
-    Agregar tareas con prioridad (alta, media, baja)
+Agregar tareas con prioridad (alta, media, baja)
 
-    Mostrar estado de proyectos
-    Restricciones:
+Mostrar estado de proyectos
 
-    Fechas deben ser válidas (inicio < fin)
+Restricciones:
 
-    Prioridades solo pueden ser los valores definidos
+Fechas deben ser válidas (inicio < fin)
 
-    Máximo 5 miembros por proyecto
+Prioridades solo pueden ser los valores definidos
 
-Ejercicio 6: Traductor de Palabras Básico
-
-Escenario: Aplicación para aprender vocabulario en otro idioma.
-Objetivo: Traducir palabras entre idiomas.
-Requisitos:
-
-    Agregar nuevas palabras (palabra, idioma_origen, idioma_destino, traducción)
-
-    Buscar traducción de palabra
-
-    Mostrar todas las palabras de un idioma
-
-    Generar test de práctica aleatorio
-    Restricciones:
-
-    No permitir palabras duplicadas en mismo idioma
-
-    Idiomas soportados: español, inglés, francés
-
-    Validar que palabras solo contengan letras
+Máximo 5 miembros por proyecto
 
 Ejercicios con Conjuntos (Sets)
+
 Ejercicio 7: Sistema de Intereses de Usuarios
 
 Escenario: Red social que gestiona intereses de usuarios.
+
 Objetivo: Encontrar coincidencias entre intereses.
+
 Requisitos:
 
-    Registrar usuarios (nombre, edad, intereses)
+Registrar usuarios (nombre, edad, intereses)
 
-    Encontrar usuarios con intereses similares
+Encontrar usuarios con intereses similares
 
-    Mostrar intereses únicos en la plataforma
+Mostrar intereses únicos en la plataforma
 
-    Sugerir nuevos intereses basados en coincidencias
-    Restricciones:
+Sugerir nuevos intereses basados en coincidencias
 
-    Intereses deben ser palabras de 3-20 caracteres
+Restricciones:
 
-    Máximo 10 intereses por usuario
+Intereses deben ser palabras de 3-20 caracteres
 
-    No permitir intereses duplicados por usuario
+Máximo 10 intereses por usuario
 
-Ejercicio 8: Control de Acceso a Laboratorio
-
-Escenario: Sistema de seguridad para laboratorio informático.
-Objetivo: Gestionar acceso de personas autorizadas.
-Requisitos:
-
-    Registrar personal autorizado (nombre, documento, área)
-
-    Registrar acceso (fecha, hora, persona)
-
-    Generar reporte de accesos por día
-
-    Detectar accesos no autorizados
-    Restricciones:
-
-    Solo permitir acceso en horario 7:00-19:00
-
-    Documento debe ser válido (prefijo + número)
-
-    Máximo 20 personas en laboratorio simultáneamente
+No permitir intereses duplicados por usuario
 
 Ejercicio Integrador Avanzado
+
 Ejercicio 9: Sistema de Vuelos y Reservas
 
 Escenario: Aerolínea que necesita gestionar vuelos y pasajeros.
+
 Objetivo: Sistema completo de reservas de vuelos.
-Requisitos:
-
-    Registrar vuelos (número, origen, destino, hora, asientos)
-
-    Reservar asientos (pasajero, documento, vuelo, asiento)
-
-    Cancelar reservas
-
-    Mostrar disponibilidad de vuelos
-
-    Generar tarjeta de embarque
-    Restricciones:
-
-    Asientos en formato A1, B2, etc. (máx. 5 filas A-E, 10 columnas 1-10)
-
-    No permitir asientos duplicados en mismo vuelo
-
-    Validar formato de hora HH:MM
-
-    Documentos deben ser únicos por vuelo
-
-Ejercicio 10: Plataforma de Cursos Online
-
-Escenario: Sistema para administrar cursos virtuales.
-Objetivo: Gestionar cursos, estudiantes y calificaciones.
-Requisitos:
-
-    Crear cursos (nombre, código, profesor, cupo)
-
-    Matricular estudiantes (nombre, documento, email)
-
-    Registrar calificaciones (curso, estudiante, notas)
-
-    Generar certificados de aprobación
-
-    Mostrar estadísticas por curso
-    Restricciones:
-
-    Código de curso: 3 letras + 3 números (ej: MAT123)
-
-    Email debe tener formato válido
-
-    Notas entre 0.0 y 5.0
-
-    Cupo máximo por curso: 30 estudiantes
-
-Buenas Prácticas a Implementar:
-
-    Validación de datos de entrada
-
-    Manejo de errores con try-except
-
-    Documentación de funciones
-
-    Modularización del código
-
-    Uso apropiado de estructuras de datos
-
-    Interfaz de usuario clara (menús, opciones)
-
-    Persistencia de datos (guardar/leer archivos)
-
-Estos ejercicios cubren una variedad de escenarios del mundo real y permiten practicar con todas las estructuras de datos principales de Python, aplicando restricciones y validaciones para asegurar código robusto.
-
-
-
-
-
-
-EJERCICIOS DE PRACTICA
-
-
-1. Sistema de Gestión de Estudiantes
-
-Descripción:
-Desarrollar una aplicación para gestionar el registro de estudiantes de una institución educativa, permitir consultar, verificar, eliminar y generar reportes.
 
 Requisitos:
 
-    Registro de la Acreditación solicitando:
+Registrar vuelos (número, origen, destino, hora, asientos)
 
-        Nombre (no vacío)
+Reservar asientos (pasajero, documento, vuelo, asiento)
 
-        Edad (entero positivo)
+Cancelar reservas
 
-        Promedio de notas (número entre 0,0 y 5.0)
+Mostrar disponibilidad de vuelos
 
-        Carrera (lista predefinida: Ingeniería, Ciencias, Arte).
+Generar tarjeta de embarque
 
-    Estudiante Estudiante por nombre.
+Restricciones:
 
-    Estudiante por nombre.
+Asientos en formato A1, B2, etc. (máx. 5 filas A-E, 10 columnas 1-10)
 
-    Mostrar todos los estudiantes por medio.
+No permitir asientos duplicados en mismo vuelo
 
-    Generar un reporte con:
+Validar formato de hora HH:MM
 
-        Total de estudiantes.
+Documentos deben ser únicos por vuelo
 
-        Promedio general de notas.
+Ejercicios Adicionales (30 nuevos ejercicios)
 
-        Estudiante con el mejor y peor medio (nombre y nota).
+Ejercicio 10: Registro de Vehículos
 
-    Menú interactivo con validaciones (intento-excepto).
+Registrar vehículos con matrícula y propietario.
 
-    Usar listas o diccionarios para almacenar datos.
+Consultar vehículos registrados.
 
-2. Sistema de Reservas de Hotel
+Eliminar vehículos por matrícula.
 
-Descripción:
-Crear un programa para gestionar reservas de habitaciones en un hotel, con opciones para acordar, y cancelar reservas, además de reportes.
+Ejercicio 11: Gestión de Pedidos en Restaurante
 
-Requisitos:
+Registrar pedidos con platos y precios.
 
-    Secretario de reserva solicitando:
+Calcular total de un pedido.
 
-        Nombre del cliente (no vacío).
+Mostrar pedidos pendientes y entregados.
 
-        Tipo de habitación (Individual, Doble, Suite).
+Ejercicio 12: Sistema de Reservas de Salas de Conferencias
 
-        Noches (entero positivo).
+Registrar reserva con fecha y duración.
 
-        Precio por noche (mayor que cero).
+Consultar disponibilidad de salas.
 
-    Consultora reserva por nombre de cliente.
+Cancelar reserva por ID.
 
-    Cancelar reserva por nombre.
+Ejercicio 13: Control de Stock en Farmacia
 
-    Mostrar todas las reservas ordenadas por noches.
+Registrar medicamentos con fecha de vencimiento.
 
-    Generar un reporte con:
+Generar alerta para productos próximos a vencer.
 
-        Total de reservas activas.
+Consultar disponibilidad por medicamento.
 
-        ingresos potenciales (suma de precios).
+Ejercicio 14: Gestión de Notas Escolares
 
-        Reserva más larga y más corta (nombre y noches).
+Registrar calificaciones de estudiantes.
 
-    Menú con manejo de excepciones.
+Calcular promedio por materia.
 
-    Usar diccionarios para almacenar reservas.
+Identificar estudiantes con bajo rendimiento.
 
-3. Gestión de Tareas Pendientes
+Ejercicio 15: Registro de Mascotas en Veterinaria
 
-Descripción:
-Aplicación para administrar tareas personales, con funciones para agregar, completar y priorizar tareas.
+Registrar mascota con nombre, especie y dueño.
 
-Requisitos:
+Programar citas médicas.
 
-    Agregar tarea solicitando:
+Generar historial clínico por mascota.
 
-        Descripción (no vacía).
+Ejercicio 16: Sistema de Administración de Club Deportivo
 
-        Prioridad (Alta, Medios, Baja).
+Registrar socios con cuotas pagadas.
 
-        Fecha límite (formato dd/mm/aaaaa).
+Generar lista de socios activos.
 
-    Marcar tarea como completada.
+Registrar actividades deportivas.
 
-    Embaracción por descripción.
+Ejercicio 17: Gestión de Personal en una Empresa
 
-    Las tareas más raras por la prioridad y la fecha.
+Registrar empleados con cargo y salario.
 
-    Generar un reporte con:
+Calcular nómina total.
 
-        Total de tareas pendientes/completadas.
+Filtrar empleados por cargo.
 
-        Tarea más urgente (prioridad Alta y fecha próxima).
+Ejercicio 18: Registro de Eventos Culturales
 
-    Menú interactivo con validaciones (ej.: fecha incorrecta).
+Registrar eventos con fecha y ubicación.
 
-    Usar listas de diccionarios para almacenar tareas.
+Consultar eventos próximos.
 
-4. Sistema de Ventas de Tienda
+Registrar asistentes.
 
-Descripción:
-Programa para gestionar ventas de una tienda, registrardo productos vendidos y generando estadísticas.
+Ejercicio 19: Sistema de Inventario de Librería
 
-Requisitos:
+Registrar libros en stock.
 
-    Secretario de venta solicitando:
+Consultar disponibilidad por título.
 
-        Nombre del producto (no vacío).
+Generar reporte de ventas.
 
-        (Entero positivo).
+Ejercicio 20: Administración de Cuentas Bancarias
 
-        Precio unitario (alcalde que cero).
+Registrar cuentas con saldo inicial.
 
-    Consultador sales por producto.
+Realizar depósitos y retiros.
 
-    Mostrar todas las ventas ordenadas por fecha.
+Consultar saldo disponible.
 
-    Generar un reporte con:
-
-        Total de ventas (en dinero).
-
-        Producto más vendido (nombre y cantidad).
-
-        Promedio de ventas por producto.
-
-    Menú con try-except para precios/cantidades inválidas.
-
-    Usar una lista de tuplas para almacenar ventas.
-
-Nota: Todos los ejercicios debe incluir:
-
-    Modularización con funciones.
-
-    Validación de entradas.
-
-    Colecciones (listas, diccionarios o tuplas).
-
-    Ciclos y condicionales.
