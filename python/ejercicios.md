@@ -266,3 +266,147 @@ Realizar depósitos y retiros.
 
 Consultar saldo disponible.
 
+
+EJERCICIOS BORRADOS POR BRANDON FANATIC
+
+1. Sistema de Gestión de Estudiantes
+
+Descripción:
+Desarrollar una aplicación para gestionar el registro de estudiantes de una institución educativa, permitir consultar, verificar, eliminar y generar reportes.
+
+Requisitos:
+
+    Registro de la Acreditación solicitando:
+
+        Nombre (no vacío)
+
+        Edad (entero positivo)
+
+        Promedio de notas (número entre 0,0 y 5.0)
+
+        Carrera (lista predefinida: Ingeniería, Ciencias, Arte).
+
+    Estudiante Estudiante por nombre.
+
+    Estudiante por nombre.
+
+    Mostrar todos los estudiantes por medio.
+
+    Generar un reporte con:
+
+        Total de estudiantes.
+
+        Promedio general de notas.
+
+        Estudiante con el mejor y peor medio (nombre y nota).
+
+    Menú interactivo con validaciones (intento-excepto).
+
+    Usar listas o diccionarios para almacenar datos.
+
+2. Sistema de Reservas de Hotel
+
+Descripción:
+Crear un programa para gestionar reservas de habitaciones en un hotel, con opciones para acordar, y cancelar reservas, además de reportes.
+
+Requisitos:
+
+    Secretario de reserva solicitando:
+
+        Nombre del cliente (no vacío).
+
+        Tipo de habitación (Individual, Doble, Suite).
+
+        Noches (entero positivo).
+
+        Precio por noche (mayor que cero).
+
+    Consultora reserva por nombre de cliente.
+
+    Cancelar reserva por nombre.
+
+    Mostrar todas las reservas ordenadas por noches.
+
+    Generar un reporte con:
+
+        Total de reservas activas.
+
+        ingresos potenciales (suma de precios).
+
+        Reserva más larga y más corta (nombre y noches).
+
+    Menú con manejo de excepciones.
+
+    Usar diccionarios para almacenar reservas.
+
+3. Gestión de Tareas Pendientes
+
+Descripción:
+Aplicación para administrar tareas personales, con funciones para agregar, completar y priorizar tareas.
+
+Requisitos:
+
+    Agregar tarea solicitando:
+
+        Descripción (no vacía).
+
+        Prioridad (Alta, Medios, Baja).
+
+        Fecha límite (formato dd/mm/aaaaa).
+
+    Marcar tarea como completada.
+
+    Embaracción por descripción.
+
+    Las tareas más raras por la prioridad y la fecha.
+
+    Generar un reporte con:
+
+        Total de tareas pendientes/completadas.
+
+        Tarea más urgente (prioridad Alta y fecha próxima).
+
+    Menú interactivo con validaciones (ej.: fecha incorrecta).
+
+    Usar listas de diccionarios para almacenar tareas.
+
+4. Sistema de Ventas de Tienda
+
+Descripción:
+Programa para gestionar ventas de una tienda, registrardo productos vendidos y generando estadísticas.
+
+Requisitos:
+
+    Secretario de venta solicitando:
+
+        Nombre del producto (no vacío).
+
+        (Entero positivo).
+
+        Precio unitario (alcalde que cero).
+
+    Consultador sales por producto.
+
+    Mostrar todas las ventas ordenadas por fecha.
+
+    Generar un reporte con:
+
+        Total de ventas (en dinero).
+
+        Producto más vendido (nombre y cantidad).
+
+        Promedio de ventas por producto.
+
+    Menú con try-except para precios/cantidades inválidas.
+
+    Usar una lista de tuplas para almacenar ventas.
+
+Nota: Todos los ejercicios debe incluir:
+
+    Modularización con funciones.
+
+    Validación de entradas.
+
+    Colecciones (listas, diccionarios o tuplas).
+
+    Ciclos y condicionales.
