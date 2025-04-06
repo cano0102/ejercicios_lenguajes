@@ -137,7 +137,7 @@
 #     tiempo = int(input("dame el tiempo de demora de cada ciclista: "))
 #     minutos.append(tiempo) # esto agraga al array
 
-# calcular_tiempos(minutos) #llama a la funcion
+# calcular_tiempos(minutos) #llama a la funcion 
 
 
 
