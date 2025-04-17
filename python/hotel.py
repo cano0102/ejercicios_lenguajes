@@ -65,7 +65,7 @@ def registrar_reserva():
         print("opcion invalidad")
     
     
-    noches :str = str(input("DAME EL NUMERO DE LA HABITACION: "))
+    noches :str = str(input("DAME EL NUMERO DE LAS NOCHES: "))
     reservas["Noches"] = noches
     
     precio :int = int(input("DAME EL PRECIO: "))
@@ -106,8 +106,17 @@ def mostras_reservas():
 def reporte():
     total = len(hotel)
     print("numero de habitacines reservadas" , total)
-    suma = sum(sumas for sumas in hotel["Precio"])
+
+    suma = sum(sumas["Precio"] for sumas in hotel)
     print(suma)
+    
+    maaximo =  max(maximo["Noches"] for maximo in hotel)
+    
+    print(maaximo)
+    minimo = min(mini["Noches"] for mini in hotel)
+    print(minimo)
+
+
 
 def menu():
     print("---OPCIONES A ELEGR---")
