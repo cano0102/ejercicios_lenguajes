@@ -50,3 +50,58 @@
 //     }
 // }
 // temperatura(20)
+
+
+
+// Escribe un programa que pida al usuario ingresar una contraseña y verifique si coincide con una contraseña predefinida. Si la contraseña es incorrecta, pide que la ingrese nuevamente hasta que sea correcta.
+// function contraseña(a) {
+    
+
+//     while (true) {
+        
+//         if (a == "hola") {
+//             console.log("bienvenido")
+//             break
+//         } else {
+            
+//             console.log("ingresa la contraseña de nuevo")
+//         }
+//     }
+    
+    
+// }
+
+
+// contraseña("hola")
+
+
+// Crea un programa que tome una calificación numérica (entre 0 y 100) e imprima la letra correspondiente (A, B, C, D, o F) según una escala predeterminada.
+
+
+
+// function calificacion(notas) {
+//     if (notas > 0 && notas <= 20) {
+//         console.log("tienes una F")
+//     }
+//     if (notas > 20 && notas <= 40) {
+//         console.log("tienes una D")
+//     }
+//     if (notas > 40 && notas <= 60) {
+//         console.log("tienes una C")
+//     }
+//     if (notas > 60 && notas <= 80) {
+//         console.log("tienes una B")
+//     }
+//     if (notas > 80 && notas <= 100) {
+//         console.log("tienes una A")
+//     }
+    
+    
+    
+// }
+
+
+// calificacion()
+
+
+
