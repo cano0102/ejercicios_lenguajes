@@ -105,3 +105,47 @@
 
 
 
+// Escribe un programa que tome las longitudes de tres lados de un triángulo y determine si forman un triángulo válido
+
+
+// function triangulo(a = 0, b = 0, c = 0) {
+//     if (a + b > c && a + c > b && b + c > a) {
+//         console.log("triángulo válido");
+//     } else {
+//         console.log("no es válido el triángulo");
+//     }
+// }
+
+// Crea un programa que actúe como una calculadora simple. El usuario debe ingresar dos números y una operación (+, -, *, /). El programa debe devolver el resultado de la operación indicada.
+
+// function calculadora(operador,a,b) {
+//     let total
+//     switch (operador) {
+//         case '+':
+//             total = a+b 
+//             console.log(total)
+//             break;
+//         case '-':
+//             total = a-b 
+//             console.log(total)
+//             break
+//         case '*':
+//             total = a*b 
+//             console.log(total)
+//             break
+//         case '/':
+//             total = a/b 
+//             console.log(total)
+//             break
+//         case '**':
+//             total = a**b 
+//             console.log(total)
+//             break
+
+//         default:
+//             console.log("operador no valido")
+//             break;
+//     }
+// }
+
+// calculadora()
