@@ -149,3 +149,4 @@
 // }
 
 // calculadora()
+console.log("jaja")
