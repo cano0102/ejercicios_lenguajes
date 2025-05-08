@@ -149,3 +149,78 @@
 // }
 
 // calculadora()
+
+
+// Escribe un programa que tome un año como entrada y determine si es un año bisiesto o no. Recuerda que un año es bisiesto si es divisible por 4, pero no por 100, a menos que también sea divisible por 400.
+
+// function añoBisiesto(año) {
+    
+//     if (año%4==0 && año%100!==0) {
+//         console.log("año  es bisiesto")
+//     }else{
+
+//         if (año%4==0 && año%100==0 && año%400==0 ) {
+//             console.log("año es bisiesto")
+//         }else{
+//             console.log("no es bisiesto")
+//         }
+//     }
+// }
+
+// añoBisiesto(2016)
+// Crea un programa que tome un carácter ingresado por el usuario y determine si es una vocal, una consonante, un número, o un carácter especial.
+
+
+// function letra(a) {
+//     if (typeof a == Number  ) {
+//         console.log("tu caracter es un numero ")
+//     }else {
+//         if (typeof a == String) {
+//             if ( a == "a" || a == "e" || a == "i" || a == "o"|| a == "u" ) {
+//                 console.log("tu caracter es un vocal ")
+//             } else {
+//                 console.log("es una consonante")
+//             }
+//         }else{
+//             console.log("carácter especial")
+//         }
+        
+        
+//     }
+// }
+// letra("a")
+
+// // Escribe un programa que tome tres números como entrada y los ordene de mayor a menor sin utilizar funciones de ordenamiento.
+
+// function ordenar(a,b,c) {
+    
+//     if (a > b && a > c ) {
+//         if ( b> c) {
+//             console.log( a,b,c)
+//         }else{
+//             console.log( a,c,b)
+//         }
+        
+
+//     }else{
+//         if (b > a && b > c ) {
+//             if ( a> c) {
+//                 console.log( b,a,c)
+//             }else{
+//                 console.log( b,c,a)
+//             }
+            
+    
+//         }  if (c > a && c > b ) {
+//             if ( b> a) {
+//                 console.log( c,b,a)
+//             }else{
+//                 console.log( c,a,b)
+//             }
+            
+    
+//         }
+//     }
+// }
+
+// ordenar()
