@@ -224,3 +224,97 @@
 // }
 
 // ordenar()
+
+
+//ciclos
+
+// Crea un programa que imprima los números del 1 al 10 en la consola.
+
+
+
+// function numeros(a) {
+
+//     for (let i = 1; i <= a ; i++) {
+        
+//         console.log(i)
+        
+//     }
+
+// }
+
+// numeros(10)
+
+// Escribe un programa que calcule la suma de todos los números del 1 al 100.
+
+
+// // function numeros(a) {
+
+// //     suma = 0;
+
+
+// //     for (let i = 1; i <= 100; i++) {
+        
+// //         suma += i
+
+// //     }
+// //     console.log(suma)
+
+// // }
+
+
+// // numeros()
+
+
+// Crea un programa que cuente cuántos números pares hay entre 1 y 50
+
+
+// function numeros(a) {
+
+//     suma = 0;
+
+
+//     for (let i = 1; i <= 50; i++) {
+
+//         if (i%2==0) {
+//             suma += i
+//             console.log(suma)
+
+            
+//         }
+        
+        
+
+//     }
+//     console.log()
+
+// }
+
+
+// numeros()
+
+
+
+// Escribe un programa que calcule el factorial de un número ingresado por el usuario.
+
+
+// function calcularFactorial(a) {
+    
+//     let contador = 1;
+//     for (let i = 1; i <= a ; i++) {
+
+
+//         contador *= i
+        
+        
+//     }
+//     console.log(contador)
+// }
+
+// calcularFactorial(20)
+
+
+
+
+
+
+

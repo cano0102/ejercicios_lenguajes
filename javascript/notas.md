@@ -46,6 +46,7 @@ Nivel Avanzado
         Escribe un programa que tome tres números como entrada y los ordene de mayor a menor sin utilizar funciones de ordenamiento.
 
 Estos ejercicios te ayudarán a practicar y mejorar tus habilidades en lógica utilizando condicionales en JavaScript.
+
 Tú dijiste:
 dame ejercicio de logica de solo ciclos  en JavaScript de principiantes a avanzado  sin respuestas (nada de líneas de código) 
 ChatGPT Plus
