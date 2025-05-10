@@ -313,6 +313,55 @@
 // calcularFactorial(20)
 
 
+// Escribe un programa que imprima todos los números primos entre 1 y 50.
+
+// function NumerosPrimos(num) {
+
+//     if (num <=1) {
+//         return false
+//     }
+
+//     if (num === 2) {
+//         return true
+//     }
+
+//     if (num%2==0) {
+//         return false
+//     }
+
+
+//     for (let i = 0; i <= 50; i++) {
+
+//         console.log(i)
+        
+//     }
+
+//     return true
+    
+// }
+
+// numero = 32
+
+// if (NumerosPrimos(numero) ) {
+    
+//     console.log("es numero primo")
+// } else {
+//     console.log("no es numero primo")
+// }
+
+
+// Crea un programa que tome un número entero ingresado por el usuario e imprima el número en orden inverso. Por ejemplo, si el número ingresado es 1234, el programa debe imprimir 4321.
+
+
+// function alReves(a) {
+//     for (let i = a; i >1; i--) {
+//         console.log(i)
+        
+//     }
+// }
+
+
+
 
 
 
