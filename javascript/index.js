@@ -362,11 +362,43 @@
 
 
 // Escribe un programa que imprima los primeros n términos de la secuencia de Fibonacci, donde n es un número ingresado por el usuario. 
-hola = ["hola","mundo"]
-for (let i = 0; i < hola; i++) {
-    
-    console.log(i)
-    
-}
+
+// investigada
+
+// function secuencia(num) {
+//     let a = 0, b = 1;
+
+//     for (let i = 0; i < num; i++) {
+        
+        
+//         c = a + b
+//         a = b;
+//         b = c
+//         console.log(b)
+        
+//     }
+// }
 
 
+// secuencia(5)
+
+
+// Crea un programa que determine si un número ingresado por el usuario es un número perfecto. Un número perfecto es aquel que es igual a la suma de sus divisores propios positivos (excluyendo el propio número).
+
+
+
+
+// Escribe un programa que tome un número n ingresado por el usuario y dibuje una pirámide de asteriscos con n filas. Por ejemplo, si n es 5, la salida debe ser:
+
+//    *
+//   ***
+//  *****
+// *******
+
+
+
+// Crea un programa que imprima una serie de potencias de 2, desde 2^0 hasta 2^n, donde n es un número ingresado por el usuario.
+
+
+
+// Escribe un programa que tome un número entero ingresado por el usuario y determine si es un palíndromo (un número que se lee igual al derecho y al revés).
