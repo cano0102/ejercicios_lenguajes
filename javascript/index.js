@@ -362,11 +362,11 @@
 
 
 // Escribe un programa que imprima los primeros n términos de la secuencia de Fibonacci, donde n es un número ingresado por el usuario. 
-
-
-
-
-
-
+hola = ["hola","mundo"]
+for (let i = 0; i < hola; i++) {
+    
+    console.log(i)
+    
+}
 
 
