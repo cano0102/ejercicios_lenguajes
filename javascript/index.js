@@ -402,3 +402,6 @@
 
 
 // Escribe un programa que tome un número entero ingresado por el usuario y determine si es un palíndromo (un número que se lee igual al derecho y al revés).
+
+
+// Crea una función que tome el nombre de una persona como argumento y devuelva un saludo personalizado, por ejemplo, "Hola, [nombre]".
