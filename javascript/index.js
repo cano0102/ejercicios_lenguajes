@@ -385,6 +385,15 @@
 
 // Crea un programa que determine si un número ingresado por el usuario es un número perfecto. Un número perfecto es aquel que es igual a la suma de sus divisores propios positivos (excluyendo el propio número).
 
+function SumaDivisores() {
+    
+    for (let i = 0; i < array.length; i++) {
+        
+        console.log(i)
+        
+    }
+}
+
 
 
 
