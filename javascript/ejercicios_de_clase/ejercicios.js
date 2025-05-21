@@ -173,3 +173,21 @@ function Comisiones() {
 }
 
 Comisiones()
+
+
+// 9. Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber
+// cuánto deberá pagar finalmente por su compra. 
+
+
+function CompraTienda() {
+    
+    let Compra =   parseFloat(prompt("Ingrese el valor de tu compra:"));
+
+
+    let TotalDescuento = (Compra * 15) / 100
+    let Total = Compra - TotalDescuento
+
+    console.log(`el total de la cuenta es  ${Total}`)
+
+    
+}
