@@ -137,3 +137,21 @@ function SegundosTotales() {
 
 }
 SegundosTotales()
+
+
+
+// 7. Suponga que un individuo desea invertir su capital en un banco y desea saber cuánto dinero
+// ganará después de un mes si el banco paga a razón de 2% mensual.
+
+
+function Banco() {
+    Capital =   parseFloat(prompt("Ingrese su capital:"));
+
+    let PorcentajeMensual = ( Capital * 2 ) / 100
+
+    console.log(`el porcentaje mensual es de ${PorcentajeMensual}`)
+
+}
+
+
+Banco()
