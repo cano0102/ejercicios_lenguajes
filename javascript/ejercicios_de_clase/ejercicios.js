@@ -61,3 +61,31 @@ PromedioDeNotas()
 
 
 
+// 4. Lea la distancia (en kilómetros) recorrida por un auto, el tiempo (en horas) en que la recorrió
+// y calcule la velocidad a la cual se desplazaba el auto (V=D/T).
+
+
+
+function Kilometros(distancia,tiempo) {
+
+    distancia = Number(prompt("DAME LA DISTANCIA RECORRICADA DEL VEHICULO:"));
+    tiempo= Number(prompt("DAME LA CONTIDAD DE TIEMPO  DEL VEHICULO:"));
+
+    let velocidad = distancia / tiempo
+
+    console.log(`LA VALOCIDAD DEL VEHICULO ERA DE ${velocidad}`)
+
+
+
+    
+}
+
+
+Kilometros()
+
+
+// 5. Lea la cantidad de dinero correspondiente a una compra y calcule el valor del IVA (19%), y
+// el valor total de la factura, si al valor de la compra se le autoriza un descuento del 10%
+// (antes de aplicarle el IVA).
+
+
