@@ -116,3 +116,24 @@ calcular()
 
 // 6. Dada una cantidad de tiempo medida en horas, minutos y segundos, diga a cuántos segundos
 // equivale.
+
+function SegundosTotales() {
+
+    let Horas  = Number(prompt("Ingrese la hora:"));
+    let Minutos =  Number(prompt("Ingrese los minutos:"));
+    let Segundos =  Number(prompt("Ingrese los segundos:"));
+     
+    let TotalDeHoras = Horas * 3600 
+    let TotalDeMinutos = Minutos * 60
+
+    let TotalDeSegundos = TotalDeHoras + TotalDeMinutos + Segundos
+
+    console.log(`el total de los segundos es ${TotalDeSegundos}`)
+
+
+
+
+
+
+}
+SegundosTotales()
