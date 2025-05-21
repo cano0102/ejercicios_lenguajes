@@ -191,3 +191,35 @@ function CompraTienda() {
 
     
 }
+
+CompraTienda()
+
+// 10. Un alumno desea saber cuál será su calificación final en la materia de Algoritmos. Dicha
+// calificación se compone de los siguientes porcentajes:
+// 55% del promedio de sus tres calificaciones parciales.
+// 30% de la calificación del examen final.
+
+// 15% de la calificación de un trabajo final
+
+
+
+function PromedioDeNotas() {
+    
+    let NotaParcial  =   parseFloat(prompt("Ingrese  el promedio de sus tres calificaciones parciales :"));
+    let NotaExamen =  parseFloat(prompt("Ingrese  la calificación del examen final :"));
+    let NotaProyectoFinal =  parseFloat(prompt("Ingrese la calificación del trabajo final  :"));
+    
+    NotaParcial = (NotaParcial * 55) / 100
+    NotaExamen = (NotaExamen * 30) / 100
+    NotaProyectoFinal = (NotaProyectoFinal * 15) / 100
+
+
+    let total = (NotaProyectoFinal + NotaExamen + NotaParcial) 
+
+
+    console.log(`el promedio de tu asignatura es ${total}`)
+
+
+}
+
+PromedioDeNotas()

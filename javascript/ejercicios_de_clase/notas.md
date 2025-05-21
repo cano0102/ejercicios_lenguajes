@@ -33,6 +33,7 @@ calificación se compone de los siguientes porcentajes:
 30% de la calificación del examen final.
 
 15% de la calificación de un trabajo final
+
 11. Un maestro desea saber qué porcentaje de hombres y qué porcentaje de mujeres hay en un
 grupo de alumnos.
 
