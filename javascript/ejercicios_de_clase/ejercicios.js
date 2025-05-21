@@ -89,3 +89,30 @@ Kilometros()
 // (antes de aplicarle el IVA).
 
 
+
+
+function calcular(valor) {
+    
+    
+    valor = parseFloat(prompt("Ingrese el valor de la compra:"));
+
+    let descuento = (valor * 10) / 100
+
+    
+
+    const iva = 0.19
+    let SubTotal1 =  valor - descuento
+    let SubTotal2 = SubTotal1 * iva
+
+    Total =  SubTotal1 + SubTotal2
+
+    console.log(`el valor de la compra es ${Total}`)
+
+}
+
+
+calcular()
+
+
+// 6. Dada una cantidad de tiempo medida en horas, minutos y segundos, diga a cuántos segundos
+// equivale.
