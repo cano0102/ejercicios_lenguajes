@@ -155,3 +155,21 @@ function Banco() {
 
 
 Banco()
+
+// 8. Un vendedor recibe un sueldo base más un 10% extra por comisión de sus ventas, el vendedor
+// desea saber cuánto dinero obtendrá por concepto de comisiones por las tres ventas que
+// realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y
+// comisiones.
+
+
+function Comisiones() {
+
+    let Sueldo =   parseFloat(prompt("Ingrese tu sueldo:"));
+    let ComisionesDelMes =  Number(prompt("Ingrese el valor de las ventas del mes:"));
+    let TotalDeComisiones = (ComisionesDelMes * 10) / 100
+    let TotalDeSueldo = Sueldo + TotalDeComisiones
+    
+    console.log(`el total del sueldo que debes de recibir es : ${TotalDeSueldo}`)
+}
+
+Comisiones()
