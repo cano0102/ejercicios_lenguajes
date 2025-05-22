@@ -337,3 +337,28 @@ function Conductor() {
 // devolver el resto de los datos.
 
 
+
+function Sueldo() {
+
+    let Salario = parseFloat(prompt("DAME EL SALARIO"));
+    let Ahorro = parseFloat(prompt("DAME EL AHORRO MENSUAL PROGRAMADO"));
+
+    let SueldoConAhorro = Salario - Ahorro;
+
+    let Salud = 12.5;
+    let SaludSalario = (Salario * Salud) / 100;
+
+    let Pension = 16;
+    let PensionSalario = (Salario * Pension) / 100;
+
+    let total = SueldoConAhorro - SaludSalario - PensionSalario;
+
+    console.log("----- COLILLA DE PAGO -----");
+    console.log("SALARIO DEL EMPLEADO: $" + Salario);
+    console.log("AHORRO MENSUAL PROGRAMADO: $" + Ahorro);
+    console.log("DESCUENTO POR SALUD (12.5%): $" + SaludSalario);
+    console.log("DESCUENTO POR PENSIÓN (16%): $" + PensionSalario);
+    console.log("TOTAL A RECIBIR: $" + total);
+}
+
+Sueldo()
