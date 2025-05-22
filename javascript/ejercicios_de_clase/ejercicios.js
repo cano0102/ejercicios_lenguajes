@@ -245,3 +245,25 @@ function PorcentajesDeAlumnos() {
 }
 
 PorcentajesDeAlumnos()
+
+
+// 12. Dada las horas trabajadas de una persona y el valor por hora. Calcular su salario e imprimirlo.
+
+
+function  HorasTrabajadas() {
+
+
+    let Horas = parseFloat(prompt("Dame las horas trabajadas"));
+    let ValorDeHora = parseInt(prompt("Dame las horas trabajadas"));
+
+    let TotalSalario = Horas * ValorDeHora
+
+    console.log(`El sulto tuyo es de ${TotalSalario}`)
+
+
+    
+}
+
+HorasTrabajadas()
+
+
