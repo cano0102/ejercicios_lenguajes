@@ -267,3 +267,60 @@ function  HorasTrabajadas() {
 HorasTrabajadas()
 
 
+// 14. Suponga que tiene Ud. una tienda y desea registrar las ventas en una computadora. Diseñe
+// un algoritmo en pseudocódigo que lea por cada cliente:
+
+// ● El monto de la venta, calcule e imprima el IVA.
+// ● calcule e imprima el total a pagar
+// ● lea la cantidad con la que paga el cliente (solo efectivo), calcule e imprima el cambio. 2
+
+
+function TotalAPagar() {
+
+    let TotalDeProductos = parseFloat(prompt("DAME EL VALOR DE LOS PRODUCTOS"))
+
+    const iva = 0.19
+
+    let SubTotalIva = (TotalDeProductos * iva) 
+
+    let Total = TotalDeProductos + SubTotalIva
+
+    console.log(`EL TOTAL A PAGAR ES : ${Total}`)
+
+
+    let PagoCliente =  parseInt(prompt("DAME EL DIMERO A PAGAR"))
+
+    let CambioCliente = PagoCliente - Total
+    console.log(`TU CAMBIO ES ${CambioCliente}`)
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 15. Suponga que un conductor le pide a usted que le haga un algoritmo para calcular cuánto le
+// corresponde en un día trabajado, teniendo en cuenta que tiene derecho a el 19% del total
+// recaudado.
+
+// 16. Desarrollar un algoritmo que permita generar la colilla de pago de los empleados de una
+// empresa. La colilla debe mostrar:
+
+// ● El Salario del Empleado
+// ● El Valor de Ahorro mensual programado.
+// ● La suma a deducir por aporte a la Salud (EPS) 12,5 %
+// ● La suma a deducir por aporte al Fondo de Pensiones 16%
+// ● Total a Recibir
+// ● Toda la información que debe proveer el usuario del programa es el Salario del
+
+// Empleado y el Valor de Ahorro mensual programado. El programa debe calcular y
+// devolver el resto de los datos.
