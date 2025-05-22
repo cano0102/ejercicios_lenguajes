@@ -223,3 +223,25 @@ function PromedioDeNotas() {
 }
 
 PromedioDeNotas()
+
+
+// 11. Un maestro desea saber qué porcentaje de hombres y qué porcentaje de mujeres hay en un
+// grupo de alumnos.
+
+
+function PorcentajesDeAlumnos() {
+    
+
+    let Estudiantes = parseInt(prompt("DAME EL NUMERO DE ESTUDIANTES : "))
+    let Hombres = parseInt(prompt("DAME EL NUMERO DE HOMBRES: "))
+
+    let PorcentajesDeHombres = (Hombres / Estudiantes) * 100
+    let Mujeres = Estudiantes - Hombres
+    let PorcentajesDeMujeres = (Mujeres / Estudiantes) * 100
+
+    console.log(`El PORCENTAJE DE LOS ES DE LOS HOMBRES ${PorcentajesDeHombres} Y EL PORCENTAJE DE LAS MUJERES ${PorcentajesDeMujeres}`)
+    
+    
+}
+
+PorcentajesDeAlumnos()
