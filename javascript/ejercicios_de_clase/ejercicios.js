@@ -312,6 +312,17 @@ function TotalAPagar() {
 // corresponde en un día trabajado, teniendo en cuenta que tiene derecho a el 19% del total
 // recaudado.
 
+function Conductor() {
+    
+    let recaudado = parseFloat(prompt("DAME LO RECAUDADO"))
+    let porcentaje = 19
+
+    let total = (recaudado * porcentaje) / 100
+    
+    console.log(`LO QUE TE CORRESPONDE ES ${total}`)
+
+}
+
 // 16. Desarrollar un algoritmo que permita generar la colilla de pago de los empleados de una
 // empresa. La colilla debe mostrar:
 
@@ -324,3 +335,5 @@ function TotalAPagar() {
 
 // Empleado y el Valor de Ahorro mensual programado. El programa debe calcular y
 // devolver el resto de los datos.
+
+
