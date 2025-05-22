@@ -75,6 +75,7 @@ la siguiente forma
 ● Cuarta cuota: 15%
 
 Diga cuanto es el valor que tiene que pagar por cuota un estudiante.
+
 18. Ingresar, para un estudiante, sus 5 notas de un curso, nombre, programa, ficha.
 Hacer un algoritmo que:
 

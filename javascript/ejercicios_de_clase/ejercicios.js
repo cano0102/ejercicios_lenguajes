@@ -362,3 +362,26 @@ function Sueldo() {
 }
 
 Sueldo()
+
+
+
+// 17. En una universidad los estudiantes pueden pagar el valor de su matrícula en cuatro cuotas de
+// la siguiente forma
+
+// ● Primera cuota: 40%
+// ● Segunda cuota: 25%
+// ● Tercera cuota: 20%
+// ● Cuarta cuota: 15%
+
+// Diga cuanto es el valor que tiene que pagar por cuota un estudiante.
+
+// 18. Ingresar, para un estudiante, sus 5 notas de un curso, nombre, programa, ficha.
+// Hacer un algoritmo que:
+
+// • Muestre el nombre
+// • Muestre el programa de formación
+// Se debe calcular y mostrar su promedio final.
+
+// 19. Ingresar el precio de compra unitario de un producto y la cantidad de compra de
+// dicho producto y un descuento. Calcular y mostrar el subtotal, el monto del IVA
+// que es el 19% del subtotal, y el precio neto (precio parcial con el Monto del IVA).
