@@ -375,6 +375,23 @@ Sueldo()
 
 // Diga cuanto es el valor que tiene que pagar por cuota un estudiante.
 
+function Universidad() {
+    
+    let Matricula = parseFloat(prompt("Dame el valor de tu matrícula"))
+
+    let PorcentajePrimeraCuota = (Matricula * 40) / 100
+    let PorcentajeSegundaCuota = (Matricula * 25) / 100
+    let PorcentajeTerceraCuota = (Matricula * 20) / 100
+    let PorcentajeCuartaCuota = (Matricula * 15) / 100
+
+    console.log(`El valor de tu primera cuota es: ${PorcentajePrimeraCuota} `)
+    console.log(`El valor de tu segunda cuota es: ${PorcentajeSegundaCuota} `)
+    console.log(`El valor de tu tercera cuota es: ${PorcentajeTerceraCuota} `)
+    console.log(`El valor de tu cuarta cuota es: ${PorcentajeCuartaCuota} `)
+
+}
+
+
 // 18. Ingresar, para un estudiante, sus 5 notas de un curso, nombre, programa, ficha.
 // Hacer un algoritmo que:
 
@@ -385,3 +402,34 @@ Sueldo()
 // 19. Ingresar el precio de compra unitario de un producto y la cantidad de compra de
 // dicho producto y un descuento. Calcular y mostrar el subtotal, el monto del IVA
 // que es el 19% del subtotal, y el precio neto (precio parcial con el Monto del IVA).
+
+
+// 20. Realice un algoritmo que permita realizar el cálculo del siguiente enunciado, se
+// solicita el año de nacimiento del aprendiz, el nombre, la dirección, se requiere
+// conocer la edad de la persona y la información completa ingresada.
+
+
+
+// 21. Se tienen tres baldes de agua, uno de cinco litros, otro de tres litros y otro de un
+// litro; si el de un litro tarda una hora y media en llenarse, resuelva cuanto tiempo
+// pueden tardar en llenarse los otros baldes.
+
+// Si tiene tres baldes, pero se desconoce su tamaño debe de resolver igualmente el
+// ejercicio.
+
+
+
+// 22. Una persona tarda 5 horas en subir una montaña de 7 metros, si un escalador
+// desea subir más o menos de la montaña, cuanto tiempo tarda en subir. Debe de
+// resolver el ejercicio.
+
+
+
+// 23. Un estudiante realiza un préstamo a un plazo de 5 años, donde la tasa fija de
+// interés es del 5% anual, se debe solicitar el monto del préstamo y se desea
+// calcular la siguiente información.
+
+// • • Cuanto dinero se ha pagado de intereses en un año.
+// • • Cuanto dinero se ha pagado de intereses en el tercer trimestre del año.
+// • • Cuanto dinero se ha pagado de intereses en el primer mes.
+// • • Cuanto dinero se paga en total del préstamo solicitado incluyendo intereses.
