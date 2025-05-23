@@ -399,6 +399,43 @@ function Universidad() {
 // • Muestre el programa de formación
 // Se debe calcular y mostrar su promedio final.
 
+
+
+function PromedioDeNotas() {
+    let CantidadDeNotas = 5
+    let notas = []
+
+    for (let i = 0; i < CantidadDeNotas; i++) {
+        let nota = parseFloat(prompt(`DAME LA NOTA: ${i + 1}`))
+        notas.push(nota)
+    }
+
+    let suma = notas.reduce((a, b) => a + b, 0)
+    let promedio = suma / CantidadDeNotas
+    return promedio
+}
+
+function datos() {
+    let nombre = prompt("DAME EL NOMBRE DEL ESTUDIANTE")
+    let programa = prompt("DAME EL NOMBRE DEL PROGRAMA") 
+    let ficha = parseInt(prompt("DAME EL NUMERO DE FICHA"))
+
+    let estudiante = {
+        nombre: nombre,
+        programa: programa,
+        ficha: ficha,
+        promedioNota: PromedioDeNotas()
+    }
+
+    console.log("Datos del estudiante:")
+    console.log(estudiante)
+}
+
+datos()
+
+
+
+
 // 19. Ingresar el precio de compra unitario de un producto y la cantidad de compra de
 // dicho producto y un descuento. Calcular y mostrar el subtotal, el monto del IVA
 // que es el 19% del subtotal, y el precio neto (precio parcial con el Monto del IVA).
