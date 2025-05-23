@@ -443,7 +443,7 @@ datos()
 // que es el 19% del subtotal, y el precio neto (precio parcial con el Monto del IVA).
 
 function comparas() {
-    
+
     let PrecioDeUnidades = parseFloat(prompt("DAME EL PRECIO DE LA UNIDAD:"));
     let CantidadDeUnidades = parseFloat(prompt("DAME LA CANTIDAD DE UNIDADES:"));
     let Descuento = parseInt(prompt("DAME EL DESCUENTO EN %:"));
@@ -458,7 +458,7 @@ function comparas() {
     let TotalFinal = TotalConDescuento + MontoIVA;
 
     
-    console.log("=== DETALLE DE COMPRA ===");
+    
     console.log("Precio unitario: $" + PrecioDeUnidades);
     console.log("Cantidad: " + CantidadDeUnidades);
     console.log("Subtotal (sin descuento): $" + TotalBruto);
@@ -473,6 +473,28 @@ function comparas() {
 // 20. Realice un algoritmo que permita realizar el cálculo del siguiente enunciado, se
 // solicita el año de nacimiento del aprendiz, el nombre, la dirección, se requiere
 // conocer la edad de la persona y la información completa ingresada.
+
+
+function CálculoEdad() {
+    
+    let AñoDeNacimiento = parseInt(prompt("DAME TU AÑO DE NACIMIENTO"))
+    let Nombre = prompt("DAME TU NOMBRE")
+    let direccion =  prompt("DAME TU DIRECCION")
+
+    let edad =   2025 - AñoDeNacimiento
+
+    Estudiantes = {
+        "edad": edad,
+        "nombre" : Nombre,
+        "direccion" : direccion
+    }
+
+    console.log(Estudiantes)
+
+
+
+
+}
 
 
 
