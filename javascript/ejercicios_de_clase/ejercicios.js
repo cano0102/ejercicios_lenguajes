@@ -323,6 +323,8 @@ function Conductor() {
 
 }
 
+
+
 // 16. Desarrollar un algoritmo que permita generar la colilla de pago de los empleados de una
 // empresa. La colilla debe mostrar:
 
@@ -439,6 +441,33 @@ datos()
 // 19. Ingresar el precio de compra unitario de un producto y la cantidad de compra de
 // dicho producto y un descuento. Calcular y mostrar el subtotal, el monto del IVA
 // que es el 19% del subtotal, y el precio neto (precio parcial con el Monto del IVA).
+
+function comparas() {
+    
+    let PrecioDeUnidades = parseFloat(prompt("DAME EL PRECIO DE LA UNIDAD:"));
+    let CantidadDeUnidades = parseFloat(prompt("DAME LA CANTIDAD DE UNIDADES:"));
+    let Descuento = parseInt(prompt("DAME EL DESCUENTO EN %:"));
+    const iva = 0.19;
+
+    let TotalBruto = PrecioDeUnidades * CantidadDeUnidades;
+
+    let MontoDescuento = (TotalBruto * Descuento) / 100;
+    let TotalConDescuento = TotalBruto - MontoDescuento;
+
+    let MontoIVA = TotalConDescuento * iva;
+    let TotalFinal = TotalConDescuento + MontoIVA;
+
+    
+    console.log("=== DETALLE DE COMPRA ===");
+    console.log("Precio unitario: $" + PrecioDeUnidades);
+    console.log("Cantidad: " + CantidadDeUnidades);
+    console.log("Subtotal (sin descuento): $" + TotalBruto);
+    console.log("Descuento (" + Descuento + "%): -$" + MontoDescuento);
+    console.log("Subtotal con descuento: $" + TotalConDescuento);
+    console.log("IVA (19%): $" + MontoIVA);
+    console.log("TOTAL A PAGAR: $" + TotalFinal);
+}
+
 
 
 // 20. Realice un algoritmo que permita realizar el cálculo del siguiente enunciado, se
