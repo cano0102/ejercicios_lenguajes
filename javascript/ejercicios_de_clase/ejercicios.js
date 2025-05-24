@@ -506,6 +506,22 @@ function CálculoEdad() {
 // ejercicio.
 
 
+function baldes() {
+    
+    hora = 90
+    let Balde1 =  1
+    let Balde3  = 3
+    let Balde5 = 5
+
+    let totalbalde1 = Balde1 * hora
+    let totalbalde3 = Balde3 * hora
+    let totalbalde5 = Balde5 * hora
+
+    console.log(`el balde de 1 litro demora ${totalbalde1} , el balde de 3 litro demora ${totalbalde3}, el balde de 5 litro demora ${totalbalde5}`)
+
+    
+}
+
 
 // 22. Una persona tarda 5 horas en subir una montaña de 7 metros, si un escalador
 // desea subir más o menos de la montaña, cuanto tiempo tarda en subir. Debe de
