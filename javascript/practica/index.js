@@ -395,16 +395,6 @@ function SumaDivisores() {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 // Crea un programa que imprima una serie de potencias de 2, desde 2^0 hasta 2^n, donde n es un número ingresado por el usuario.
 
 
@@ -425,10 +415,8 @@ function potencia(potencia) {
 
 
 
-// Escribe un programa que tome un número entero ingresado por el usuario y determine si es un palíndromo (un número que se lee igual al derecho y al revés).
 
 
 
 
 
-// Crea una función que tome el nombre de una persona como argumento y devuelva un saludo personalizado, por ejemplo, "Hola, [nombre]".
