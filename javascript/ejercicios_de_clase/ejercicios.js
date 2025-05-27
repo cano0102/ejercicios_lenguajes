@@ -529,6 +529,28 @@ function baldes() {
 
 
 
+function EscalarMontaña() {
+    
+    let MetroAsubir =  Number(prompt("DAME EL NUMERO DE METROS QUE DESEAS SUBIR"))
+    
+    let tiempo =  42.85
+    
+    
+    let TiempoEstimado = MetroAsubir * tiempo
+
+    console.log(`EL TIEMPO ESTIMO PARA SUBIR ${MetroAsubir} METROS ES ${TiempoEstimado}`)
+}
+
+
+EscalarMontaña()
+
+
+
+
+
+
+
+
 // 23. Un estudiante realiza un préstamo a un plazo de 5 años, donde la tasa fija de
 // interés es del 5% anual, se debe solicitar el monto del préstamo y se desea
 // calcular la siguiente información.
