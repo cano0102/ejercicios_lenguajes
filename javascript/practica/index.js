@@ -417,6 +417,17 @@ function potencia(potencia) {
 // Escribe una función que tome el radio de un círculo como argumento y devuelva el área del círculo.
 
 
+function AreaDelCirculo(params) {
+    
+    let radio = parseInt(prompt("DAME EL RADIO DE TU CIRCULO"))
+    let area = 3.14 * radio **2
+
+
+}
+
+
+AreaDelCirculo()
+
 
 
 
