@@ -559,3 +559,29 @@ EscalarMontaña()
 // • • Cuanto dinero se ha pagado de intereses en el tercer trimestre del año.
 // • • Cuanto dinero se ha pagado de intereses en el primer mes.
 // • • Cuanto dinero se paga en total del préstamo solicitado incluyendo intereses.
+
+
+function CalcularInterecesDuranteUnAño() {
+    let MontoAPrestar = parseFloat(prompt("DAME EL MONTO QUE DESEAS PRESTAR: "));
+    let interes = 5; 
+
+   
+    let porcentajeDePrestamo = (MontoAPrestar * interes) / 100;
+
+    
+    let trimestre = interes / 4;
+    let interesTercerTrimestre = (MontoAPrestar * trimestre) / 100;
+
+    
+    let mensual = interes / 12;
+    let interesPrimerMes = (MontoAPrestar * mensual) / 100;
+
+    
+    let MontoTotal = MontoAPrestar + (porcentajeDePrestamo * 5);
+
+    
+    console.log(`EL INTERÉS DE TU PRÉSTAMO ANUAL ES DE: ${porcentajeDePrestamo}`);
+    console.log(`EL INTERÉS PAGADO EN EL TERCER TRIMESTRE ES DE: ${interesTercerTrimestre}`);
+    console.log(`EL INTERÉS PAGADO EN EL PRIMER MES ES DE: ${interesPrimerMes}`);
+    console.log(`EL MONTO TOTAL A PAGAR DESPUÉS DE 5 AÑOS ES DE: ${MontoTotal}`);
+}
