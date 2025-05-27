@@ -113,6 +113,7 @@ Nivel Avanzado
 
 Estos ejercicios te permitirán practicar y mejorar tus habilidades en la lógica de programación utilizando ciclos en JavaScript.
 Tú dijiste:
+
 dame ejercicio de logica de solo funciones  en JavaScript de principiantes a avanzado  sin respuestas (nada de líneas de código) 
 ChatGPT Plus
 
@@ -137,9 +138,9 @@ Nivel Intermedio
 
         Escribe una función que tome el radio de un círculo como argumento y devuelva el área del círculo.
 
-    Revertir una cadena:
+Revertir una cadena:
 
-        Crea una función que reciba una cadena como argumento y devuelva la cadena invertida.
+Crea una función que reciba una cadena como argumento y devuelva la cadena invertida.
 
     Encontrar el número mayor:
 

@@ -413,10 +413,13 @@ function potencia(potencia) {
 
 
 
+//  Calcular el área de un círculo:
+// Escribe una función que tome el radio de un círculo como argumento y devuelva el área del círculo.
 
 
 
 
 
 
-
+// Revertir una cadena:
+// Crea una función que reciba una cadena como argumento y devuelva la cadena invertida.
