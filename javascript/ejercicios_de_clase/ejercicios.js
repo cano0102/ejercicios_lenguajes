@@ -562,6 +562,8 @@ EscalarMontaña()
 
 
 function CalcularInterecesDuranteUnAño() {
+
+    
     let MontoAPrestar = parseFloat(prompt("DAME EL MONTO QUE DESEAS PRESTAR: "));
     let interes = 5; 
 
