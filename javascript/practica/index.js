@@ -423,3 +423,56 @@ function potencia(potencia) {
 
 // Revertir una cadena:
 // Crea una función que reciba una cadena como argumento y devuelva la cadena invertida.
+
+
+
+// Número par o impar:
+//Crea una función que reciba un número como argumento y devuelva "par" si el número es par y "impar" si es impar.
+
+// Nivel Intermedio
+
+//     Calcular el área de un círculo:
+
+//         Escribe una función que tome el radio de un círculo como argumento y devuelva el área del círculo.
+
+// Revertir una cadena:
+
+// Crea una función que reciba una cadena como argumento y devuelva la cadena invertida.
+
+    // Encontrar el número mayor:
+
+    //     Escribe una función que tome tres números como argumentos y devuelva el mayor de los tres.
+
+    // Contar vocales:
+
+    //     Crea una función que reciba una cadena como argumento y devuelva el número de vocales en la cadena.
+
+
+
+    // Verificar si un número es primo:
+
+    //     Escribe una función que tome un número como argumento y devuelva true si es primo y false si no lo es.
+
+    // Generar números aleatorios únicos:
+
+    //     Crea una función que tome un número n como argumento y devuelva un array con n números aleatorios únicos entre 1 y 100.
+
+    // Sumar todos los elementos de un array:
+
+    //     Escribe una función que reciba un array de números como argumento y devuelva la suma de todos sus elementos.
+
+    // Encontrar el máximo común divisor (MCD):
+
+    //     Crea una función que reciba dos números como argumentos y devuelva su máximo común divisor.
+
+    // Comprobar si una cadena es un palíndromo:
+
+    //     Escribe una función que tome una cadena como argumento y devuelva true si la cadena es un palíndromo (se lee igual al derecho y al revés) y false si no lo es.
+
+    // Calcular la potencia de un número:
+
+    //     Crea una función que reciba dos números como argumentos, base y exponente, y devuelva el resultado de elevar la base al exponente (es decir, base^exponente).
+
+    // Filtrar números mayores que un valor dado:
+
+    //     Escribe una función que reciba un array de números y un número n como argumentos, y devuelva un nuevo array con todos los números mayores que n.
