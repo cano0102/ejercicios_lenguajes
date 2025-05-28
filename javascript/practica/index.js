@@ -450,13 +450,30 @@ function Revertir() {
 
 }
 
-    
+
 
 
 
 
 // Número par o impar:
 //Crea una función que reciba un número como argumento y devuelva "par" si el número es par y "impar" si es impar.
+
+
+
+function ParImpar() {
+
+
+    let numero = 11
+
+    if (numero%2==0) {
+
+        console.log("ES PAR")
+        
+    } else {
+        console.log("NO ES PAR")
+    }
+    
+}
 
 // Nivel Intermedio
 
