@@ -436,6 +436,24 @@ AreaDelCirculo()
 // Crea una función que reciba una cadena como argumento y devuelva la cadena invertida.
 
 
+function Revertir() {
+    let cadena = "Hola mundo"
+    for (let i =  cadena.length -1; i >= 0; i--) {
+
+        console.log(cadena[i])
+
+        
+    
+    
+    }
+
+
+}
+
+    
+
+
+
 
 // Número par o impar:
 //Crea una función que reciba un número como argumento y devuelva "par" si el número es par y "impar" si es impar.
