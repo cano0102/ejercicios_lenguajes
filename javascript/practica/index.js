@@ -527,6 +527,25 @@ function numeros(a,b,c) {
     //     Crea una función que reciba una cadena como argumento y devuelva el número de vocales en la cadena.
 
 
+function cadenaVocales() {
+    let cadena = "hola mi nombre es anderson";
+    let vocales = ["a", "e", "i", "o", "u"];
+    let contador = 0;
+
+    for (let i = 0; i < cadena.length; i++) {
+        for (let y = 0; y < vocales.length; y++) {
+            if (cadena[i] === vocales[y]) {
+                contador += 1;
+            }
+        }
+    }
+
+    console.log("Cantidad de vocales:", contador);
+    return contador;
+}
+
+cadenaVocales();
+
 
     // Verificar si un número es primo:
 
