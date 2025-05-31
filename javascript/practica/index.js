@@ -551,6 +551,11 @@ cadenaVocales();
 
     //     Escribe una función que tome un número como argumento y devuelva true si es primo y false si no lo es.
 
+
+    function name(params) {
+        
+    }
+
     // Generar números aleatorios únicos:
 
     //     Crea una función que tome un número n como argumento y devuelva un array con n números aleatorios únicos entre 1 y 100.
@@ -560,6 +565,8 @@ cadenaVocales();
     //     Escribe una función que reciba un array de números como argumento y devuelva la suma de todos sus elementos.
 
     // Encontrar el máximo común divisor (MCD):
+
+
 
     //     Crea una función que reciba dos números como argumentos y devuelva su máximo común divisor.
 
