@@ -552,7 +552,7 @@ cadenaVocales();
     //     Escribe una función que tome un número como argumento y devuelva true si es primo y false si no lo es.
 
 
-    function name(params) {
+    function  varificar() {
         
     }
 
