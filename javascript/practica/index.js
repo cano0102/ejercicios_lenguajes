@@ -554,6 +554,7 @@ cadenaVocales();
 
     function  varificar() {
         
+        
     }
 
     // Generar números aleatorios únicos:
