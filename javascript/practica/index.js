@@ -552,10 +552,19 @@ cadenaVocales();
     //     Escribe una función que tome un número como argumento y devuelva true si es primo y false si no lo es.
 
 
-    function  varificar() {
-        
-        
+function esPrimo(numero) {
+    if (numero <= 1) return false;
+
+    for (let i = 2; i < numero; i++) {
+        if (numero % i === 0) {
+            return false; 
+        }
     }
+
+  return true;
+  
+}
+
 
     // Generar números aleatorios únicos:
 
