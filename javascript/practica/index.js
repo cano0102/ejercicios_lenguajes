@@ -599,7 +599,7 @@ function esPrimo(numero) {
 
     // Encontrar el máximo común divisor (MCD):
     // Crea una función que reciba dos números como argumentos y devuelva su máximo común divisor.
-    
+
     function MCD(a, b) {
     while (b !== 0) {
         let temp = b;
@@ -612,6 +612,34 @@ function esPrimo(numero) {
     // Comprobar si una cadena es un palíndromo:
 
     //     Escribe una función que tome una cadena como argumento y devuelva true si la cadena es un palíndromo (se lee igual al derecho y al revés) y false si no lo es.
+
+    function Palindroma(params) {
+        let  cadena = prompt("DAME UNA PALABRA : ")
+        let cad = true
+        
+        for (let i = 0; i < cadena.length; i++) {
+            
+            for (let y = cadena.length -1; y >= 0; y--) {
+                
+                cad = cadena.length
+                if (cad !== true) {
+                    cad = false
+                }
+                
+                
+                
+            }
+            
+        }
+        if (cadena[i] == cadena[y]) {
+            console.log("la palabra es palindroma")
+            
+        } else {
+            console.log("la palabra no es palindroma")
+        
+        }
+
+    }
 
     // Calcular la potencia de un número:
 
