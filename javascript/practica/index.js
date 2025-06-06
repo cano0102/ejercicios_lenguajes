@@ -550,6 +550,8 @@ cadenaVocales();
     // Verificar si un número es primo:
 
     //     Escribe una función que tome un número como argumento y devuelva true si es primo y false si no lo es.
+    
+    
 
 
 function esPrimo(numero) {
@@ -561,8 +563,8 @@ function esPrimo(numero) {
         }
     }
 
-  return true;
-  
+    return true;
+
 }
 
 
@@ -570,9 +572,30 @@ function esPrimo(numero) {
 
     //     Crea una función que tome un número n como argumento y devuelva un array con n números aleatorios únicos entre 1 y 100.
 
+    function NumeroAleatorio() {
+        
+        let Aleatorio = Math.floor(Math.random()* 2000) 
+        console.log(Aleatorio);
+    }
+
+    NumeroAleatorio()
+
     // Sumar todos los elementos de un array:
 
     //     Escribe una función que reciba un array de números como argumento y devuelva la suma de todos sus elementos.
+
+
+    let SumaDeNumeros = []
+
+    function Suma() {
+        
+        let SumaDeNumeros2 = parseInt(prompt("DAME UN NUMERO A SUMAR: "))
+        SumaDeNumeros.push(SumaDeNumeros2)
+
+        let Suma = SumaDeNumeros.reduce((a,b ) => a + b,0) 
+        console.log(Suma)
+        
+    }
 
     // Encontrar el máximo común divisor (MCD):
 
