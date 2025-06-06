@@ -598,10 +598,16 @@ function esPrimo(numero) {
     }
 
     // Encontrar el máximo común divisor (MCD):
-
-
-
-    //     Crea una función que reciba dos números como argumentos y devuelva su máximo común divisor.
+    // Crea una función que reciba dos números como argumentos y devuelva su máximo común divisor.
+    
+    function MCD(a, b) {
+    while (b !== 0) {
+        let temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
 
     // Comprobar si una cadena es un palíndromo:
 
