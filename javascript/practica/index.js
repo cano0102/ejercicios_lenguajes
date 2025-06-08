@@ -643,11 +643,15 @@ function esPrimo(numero) {
 
     // Calcular la potencia de un número:
 
-    //     Crea una función que reciba dos números como argumentos, base y exponente, y devuelva el resultado de elevar la base al exponente (es decir, base^exponente).
-    function BaseExponente() {
-        
+    //     Crea una función que reciba dos números como argumentos, base y exponente, y devuelva el  resultado de elevar la base al exponente (es decir, base^exponente).
+    function BaseExponente(base,exponete) {
+        if (condition) {
+            
+        }
     }
-
+    
+    
+    
     // Filtrar números mayores que un valor dado:
-
+    
     //     Escribe una función que reciba un array de números y un número n como argumentos, y devuelva un nuevo array con todos los números mayores que n.
