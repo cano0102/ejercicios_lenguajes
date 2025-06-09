@@ -678,3 +678,92 @@ function esPrimo(numero) {
 
         console.log(NuevoArrays)
     }
+
+
+
+// Aquí tienes 20 ejercicios de lógica utilizando arrays en JavaScript, organizados de principiantes a avanzado:
+// Nivel Principiante
+
+//     Crear un array de números:
+
+//         Crea un array que contenga los números del 1 al 5.
+
+//     Acceder al primer y último elemento:
+
+//         Escribe un programa que tome un array y devuelva el primer y el último elemento del array.
+
+//     Suma de elementos de un array:
+
+//         Crea un programa que tome un array de números y devuelva la suma de todos sus elementos.
+
+//     Encontrar el valor máximo en un array:
+
+//         Escribe un programa que reciba un array de números y devuelva el valor máximo del array.
+
+//     Multiplicar todos los elementos:
+
+//         Crea un programa que tome un array de números y devuelva el producto de todos sus elementos.
+
+//     Invertir un array:
+
+//         Escribe un programa que tome un array y devuelva un nuevo array con los elementos en orden inverso.
+
+// Nivel Intermedio
+
+//     Contar elementos en un array:
+
+//         Crea un programa que tome un array y devuelva la cantidad de elementos que contiene.
+
+//     Eliminar un elemento específico:
+
+//         Escribe un programa que tome un array y un valor, y devuelva un nuevo array sin ese valor.
+
+//     Combinar dos arrays:
+
+//         Crea un programa que tome dos arrays y devuelva un nuevo array que combine los elementos de ambos arrays.
+
+//     Dividir un array en partes:
+
+//         Escribe un programa que tome un array y un número n, y divida el array en subarrays de longitud n.
+
+//     Filtrar números pares:
+
+//         Crea un programa que tome un array de números y devuelva un nuevo array que solo contenga los números pares.
+
+//     Sumar valores positivos en un array:
+
+//         Escribe un programa que tome un array de números y devuelva la suma de todos los valores positivos.
+
+// Nivel Avanzado
+
+//     Eliminar duplicados en un array:
+
+//         Crea un programa que tome un array y devuelva un nuevo array sin elementos duplicados.
+
+//     Intersección de dos arrays:
+
+//         Escribe un programa que tome dos arrays y devuelva un nuevo array que contenga solo los elementos que están presentes en ambos arrays.
+
+//     Agrupar elementos por tipo:
+
+//         Crea un programa que tome un array de valores mixtos (números, cadenas, booleanos, etc.) y devuelva un objeto que agrupe los elementos por tipo.
+
+//     Ordenar un array de cadenas por longitud:
+
+//         Escribe un programa que tome un array de cadenas y devuelva el array ordenado por la longitud de las cadenas, de menor a mayor.
+
+//     Encontrar la subsecuencia más larga de números consecutivos:
+
+//         Crea un programa que tome un array de números y devuelva la longitud de la subsecuencia más larga de números consecutivos.
+
+//     Buscar el segundo número más grande:
+
+//         Escribe un programa que tome un array de números y devuelva el segundo número más grande en el array.
+
+//     Convertir un array de objetos en un objeto:
+
+//         Crea un programa que tome un array de objetos, donde cada objeto tiene una clave y un valor, y devuelva un objeto que combine todas las claves y valores.
+
+//     Rotar un array n posiciones:
+
+//         Escribe un programa que tome un array y un número n, y devuelva el array rotado n posiciones hacia la derecha. Por ejemplo, si el array es [1, 2, 3, 4, 5] y n es 2, el resultado debe ser [4, 5, 1, 2, 3].
