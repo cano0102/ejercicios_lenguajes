@@ -644,11 +644,17 @@ function esPrimo(numero) {
     // Calcular la potencia de un número:
 
     //     Crea una función que reciba dos números como argumentos, base y exponente, y devuelva el  resultado de elevar la base al exponente (es decir, base^exponente).
-    function BaseExponente(base,exponete) {
-        if (condition) {
-            
-        }
+
+    function BaseExponente(base,exponente) {
+        
+        let resultado = base ** exponente
+
+        console.log(`EL RESULTADO ES: ${resultado}`)
+
+
     }
+
+    BaseExponente()
     
     
     
