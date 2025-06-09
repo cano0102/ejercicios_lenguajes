@@ -661,3 +661,20 @@ function esPrimo(numero) {
     // Filtrar números mayores que un valor dado:
     
     //     Escribe una función que reciba un array de números y un número n como argumentos, y devuelva un nuevo array con todos los números mayores que n.
+
+    let Numeros = [1,23,456,675,244,12];
+    function DevolverNuevoArrays(Numeros,n) {
+        
+        let NuevoArrays = []
+        
+        for (let i = 0; i < Numeros.length; i++) {
+            
+            if (Numeros[i] >= n ) {
+                
+                NuevoArrays.push(Numeros[i])
+            }
+            
+        }
+
+        console.log(NuevoArrays)
+    }
