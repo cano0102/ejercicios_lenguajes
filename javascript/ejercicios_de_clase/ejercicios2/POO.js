@@ -56,10 +56,26 @@ class Persona {
             console.log(`${clave}: ${datos[clave]}`);
         }
     }
+    // Ejercicio 10: Composición de objetos
+    // Crea una clase Direccion con propiedades calle y ciudad, y agrégala como propiedad dentro de la clase Persona. Luego, imprime la dirección completa desde un método.
+
+    mostrarDireccion(){
+        if (this.direccion instanceof Direccion) {
+            console.log(`Dirección: ${this.direccion.nombre}, Calle: ${this.direccion.calle}, Ciudad: ${this.direccion.ciudad}`);
+        } else {
+            console.log("Dirección no disponible o no es una instancia de Direccion.");
+        }
+    }
 }
     
 
-
+class Direccion{
+    constructor(nombre,calle,ciudad){
+        this.nombre = nombre;
+        this.calle = calle;
+        this.ciudad = ciudad;
+    }
+}
 
 
 // Ejercicio 3: Crear múltiples instancias 
