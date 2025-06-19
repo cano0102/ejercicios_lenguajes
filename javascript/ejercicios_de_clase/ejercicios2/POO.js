@@ -146,7 +146,7 @@ class Curso {
 
     listaDeEstudiantes(){
         
-        for (let i = 0; i < this.Estudiantes.length; i++) {
+        for (let i = 0; i < this.estudiantes.length; i++) {
             console.log(i)
             
         }
