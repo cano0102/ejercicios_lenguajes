@@ -12,10 +12,11 @@ class Persona {
     #edad;
     // Ejercicio 2: Constructor con parámetros 
    // Modifica la clase Persona para que el constructor reciba nombre y edad como argumentos.
-    constructor(nombre = "",edad = null) {
+    constructor(nombre = "",edad = null,direccion) {
 
         this.#nombre = nombre;
         this.#edad = edad
+        this.direccion = direccion
     }
     
     saludar() {
